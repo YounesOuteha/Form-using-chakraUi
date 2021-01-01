@@ -6,7 +6,7 @@ const Card = () => {
     const textColor ={light:'gray.500', dark:'gray.100'};
     return (
         <Box w='400px' rounded='20px' overflow='hidden' boxShadow='sm' bg={bgColor[colorMode]}>
-            <Image src='../public/thumb.png' alt='Course Cover' />
+            <Image src='/thumb.png' alt='Course Cover' />
             <Box p={5}>
                 <Stack isInline align='baseline'>
                 <Badge variant='solid' variantColor='teal' rounded='full' px={2}>New!</Badge>
